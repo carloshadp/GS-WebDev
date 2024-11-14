@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      "mini": "350px",
+      "desktop": "1024px"
+    },
+    extend: {
+
+      colors: {
+        "verde-normal": "#045914",
+        "cinza": "#ccc",
+      }
+    },
   },
   plugins: [],
 }
