@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 export default function Footer() {
   return (
     <>
-      <footer className="w-full h-52 flex flex-col desktop:flex-row desktop:pl-36 justify-evenly items-center bg-gradient-to-t from-green-950 to-verde-normal text-cinza">
+      <footer className="w-full desktop:h-52 pb-4 flex flex-col desktop:flex-row desktop:pl-36 justify-evenly items-center bg-gradient-to-t from-green-950 to-verde-normal text-cinza">
         <div>
           <img src="/imgs/GreenAscent-LOGO.png" className="w-40 h-40" />
         </div>
