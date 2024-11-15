@@ -1,4 +1,4 @@
-
+import { Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -20,8 +20,8 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center">
-          <h2>Nosso Repo</h2>
-          <a href="https://github.com/carloshadp/GS-WebDev">https://github.com/carloshadp/GS-WebDev</a>
+          <h2 className="text-green-400">Nosso Repo</h2>
+          <a href="https://github.com/carloshadp/GS-WebDev" className="hover:text-green-400 flex gap-1"><Github />Repositorio Green Ascent</a>
         </div>
 
       </footer>
