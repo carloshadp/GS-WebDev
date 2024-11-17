@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Home from './pages/Home.jsx'
 import Solucoes from './pages/Solucoes.jsx'
 import NossosDados from './pages/NossosDados.jsx'
+import DadosDetalhes from './pages/DadosDetalhes.jsx'
 
 const Rotas = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const Rotas = createBrowserRouter([
       {
         path: "/NossosDados",
         element: <NossosDados/>
+      },
+      {
+        path: "/NossosDados/:id",
+        element: <DadosDetalhes/>
       }
     ]
   }

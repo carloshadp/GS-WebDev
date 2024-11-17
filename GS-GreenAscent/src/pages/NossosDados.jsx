@@ -1,16 +1,25 @@
 import { useState, useEffect } from "react"
 import { trefoil } from 'ldrs'
+import CardData from "../components/CardData.jsx";
+
 export default function NossosDados() {
   trefoil.register()
   const [carregando, setCarregando] = useState(false);
+  const [infos, setInfos] = useState([])
 
   useEffect(() => {
     setCarregando(true);
 
     setTimeout(() => {
-      setCarregando(false)
-    }, 2000)
-  }, [])
+
+      fetch("https://67393ea0a3a36b5a62ee3974.mockapi.io/api/greenascent/greener")
+      .then( dado => dado.json() )
+      .then( dado_json => setInfos(dado_json.results || []))
+      .catch( erro => alert(erro) )
+      .finally( () => setCarregando(false))
+
+    }, 2000);
+  }, []);
 
   return (
     <section className="flex flex-col w-full min-h-screen py-10 gap-12 items-center bg-gradient-to-b from-verde-normal via-green-950 to-verde-normal">
@@ -24,8 +33,12 @@ export default function NossosDados() {
         color="rgb(74 222 128)" 
       ></l-trefoil> : 
 
-      <h1>Carregou!</h1>
-        
+      
+      // infos.map(info => (
+      //   console.log(info),
+      //   <CardData key={info.id} {...info}/>
+      // ))
+      <CardData infos={infos}/>
       }
     </section>
   )
