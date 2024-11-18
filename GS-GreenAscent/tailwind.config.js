@@ -14,6 +14,7 @@ export default {
 
       colors: {
         "verde-normal": "#045914",
+        "verde-escuro": "#023C0D",
         "cinza": "#ccc",
       }
     },
