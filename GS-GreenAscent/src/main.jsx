@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Solucoes from './pages/Solucoes.jsx'
 import NossosDados from './pages/NossosDados.jsx'
 import DadosDetalhes from './pages/DadosDetalhes.jsx'
+import PageNotFound from './pages/PageNotFound.jsx'
 
 const Rotas = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const Rotas = createBrowserRouter([
       {
         path: "/NossosDados/:id",
         element: <DadosDetalhes/>
+      },
+      {
+        path: "*",
+        element: <PageNotFound/>
       }
     ]
   }

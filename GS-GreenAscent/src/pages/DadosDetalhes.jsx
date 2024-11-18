@@ -27,6 +27,7 @@ export default function DadosDetalhes() {
     }else
     {
       favoritos.push(infos)
+      alert("Adicionado com sucesso")
     }
     localStorage.setItem("favoritos", JSON.stringify(favoritos))
   }
