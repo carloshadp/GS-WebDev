@@ -14,7 +14,7 @@ export default function NossosDados() {
 
       fetch("https://67393ea0a3a36b5a62ee3974.mockapi.io/api/greenascent/greener")
       .then( dado => dado.json() )
-      .then( dado_json => setInfos(dado_json.results || []))
+      .then( dado_json => setInfos(dado_json.results || dado_json || []))
       .catch( erro => alert(erro) )
       .finally( () => setCarregando(false))
 
@@ -33,11 +33,7 @@ export default function NossosDados() {
         color="rgb(74 222 128)" 
       ></l-trefoil> : 
 
-      
-      // infos.map(info => (
-      //   console.log(info),
-      //   <CardData key={info.id} {...info}/>
-      // ))
+
       <CardData infos={infos}/>
       }
     </section>
