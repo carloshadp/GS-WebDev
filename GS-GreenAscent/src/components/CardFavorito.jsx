@@ -13,7 +13,7 @@ export default function CardFavoritos({ infos }) {
           </div>
 
           <div className="flex text-nowrap gap-2">
-            <h1>Problema {index + 1}:</h1>
+            <h1>Solução {index + 1}:</h1>
             <p>{info.name}</p>
           </div>
 
