@@ -4,9 +4,9 @@ import App from './App.jsx'
 import "/src/index.css"
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Home from './pages/Home.jsx'
-import Solucoes from './pages/Solucoes.jsx'
-import NossosDados from './pages/NossosDados.jsx'
-import DadosDetalhes from './pages/DadosDetalhes.jsx'
+import Problemas from './pages/Problemas.jsx'
+import NossasSolucoes from './pages/NossasSolucoes.jsx'
+import SolucoesDetalhes from './pages/SolucoesDetalhes.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 
 const Rotas = createBrowserRouter([
@@ -19,16 +19,16 @@ const Rotas = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/Solucoes",
-        element: <Solucoes/>
+        path: "/Problemas",
+        element: <Problemas/>
       },
       {
-        path: "/NossosDados",
-        element: <NossosDados/>
+        path: "/NossasSolucoes",
+        element: <NossasSolucoes/>
       },
       {
-        path: "/NossosDados/:id",
-        element: <DadosDetalhes/>
+        path: "/NossasSolucoes/:id",
+        element: <SolucoesDetalhes/>
       },
       {
         path: "*",

@@ -18,7 +18,7 @@ export default function CardFavoritos({ infos }) {
           </div>
 
           <div className="hover:text-green-400">
-            <Link to={`/NossosDados/${info.id}`} key={index}>Ver Detalhes</Link>
+            <Link to={`/NossasSolucoes/${info.id}`} key={index}>Ver Detalhes</Link>
           </div>
         </div>
       ))

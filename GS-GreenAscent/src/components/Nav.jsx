@@ -16,8 +16,8 @@ export default function Nav() {
       <nav className="grid items-center">
         <div className="hidden tablet:flex gap-10 place-self-center">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/Solucoes">Nossas Soluções</NavLink>
-          <NavLink to="/NossosDados">Nossos Dados</NavLink>
+          <NavLink to="/Problemas">Problemas Identificados</NavLink>
+          <NavLink to="/NossasSolucoes">Nossas Soluções</NavLink>
         </div>
 
         <div className="tablet:hidden place-self-center">
@@ -27,8 +27,8 @@ export default function Nav() {
       {aberto && (
         <nav className="flex flex-col gap-3 basis-full col-span-2 w-full items-center tablet:hidden mb-5">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/Solucoes">Nossas Soluções</NavLink>
-          <NavLink to="/NossosDados">Nossos Dados</NavLink>
+          <NavLink to="/Problemas">Problemas Identificados</NavLink>
+          <NavLink to="/NossasSolucoes">Nossas Soluções</NavLink>
         </nav>
       )}
     </>

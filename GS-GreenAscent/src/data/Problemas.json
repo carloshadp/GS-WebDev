@@ -1,0 +1,17 @@
+[
+    {
+        "detalhes": "O impacto ambiental de hidrelétricas é significativo, pois grandes barragens inundam vastas áreas, causando desmatamento, deslocamento de comunidades e alterações nos ecossistemas aquáticos, afetando a fauna e a flora locais.",
+        "image": "https://www2.ufjf.br/noticias/wp-content/uploads/sites/2/2016/01/usina_hidreletrica_sinop_foto_divulgacao_uhesinop_2-630x417.jpg",
+        "id": "1"
+      },
+      {
+        "detalhes": "O descarte inadequado de placas solares pode liberar materiais tóxicos como metais pesados no meio ambiente, contaminando solo e água, além de desperdiçar recursos recicláveis. Uma gestão eficiente reduz esses impactos e promove a sustentabilidade.",
+        "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c92e/live/d3850540-0319-11ee-aa08-4727df20b680.jpg.webp",
+        "id": "2"
+      },
+      {
+        "detalhes": "Usinas eólicas perto de residências podem causar ruídos, impacto visual, sombras intermitentes e possíveis riscos à segurança, além de gerar desconforto social e desvalorização de propriedades. Esses efeitos podem ser mitigados com planejamento adequado e distâncias mínimas.",
+        "image": "https://images01.brasildefato.com.br/48ac53eadd4f172648034ae0947c6f40.jpeg",
+        "id": "3"
+      }
+]

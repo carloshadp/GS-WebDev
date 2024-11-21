@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { trefoil } from 'ldrs'
-import CardData from "../components/CardData.jsx";
+import CardData from "../components/CardSolucoes.jsx";
 
 export default function NossosDados() {
   trefoil.register()
@@ -18,7 +18,7 @@ export default function NossosDados() {
       .catch( erro => alert(erro) )
       .finally( () => setCarregando(false))
 
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (

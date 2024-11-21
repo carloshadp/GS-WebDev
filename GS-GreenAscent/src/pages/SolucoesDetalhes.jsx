@@ -36,16 +36,16 @@ export default function DadosDetalhes() {
     <>
       <section className="bg-verde-normal grid justify-center gap-5" key={infos.id}>
         <div className="flex flex-col items-center text-green-400 gap-1">
-          <h1 className="text-4xl">Pesquisador(a)</h1>
+          <h1 className="text-4xl">Solução idealizada</h1>
           <img src={infos.avatar} className="w-[200px] h-[200px] rounded-full"/>
           <h1 className="text-xl">{infos.name}</h1>
-          <button onClick={()=> handleFavoritos(infos)}>⭐Favoritar Dados⭐</button>
+          <button onClick={()=> handleFavoritos(infos)}>⭐Favoritar Solução⭐</button>
         </div>
 
         <div className="px-5 max-w-[860px] flex flex-col items-center gap-3">
-          <h3 className="text-green-400 text-4xl">Descrição dos Dados</h3>
+          <h3 className="text-green-400 text-4xl">Descrição dos Solução</h3>
           <p className="text-xl text-cinza text-justify">{infos.details}</p>
-          <NavLink to="/NossosDados" className="flex gap-1 text-green-400"><CornerUpLeft/>Voltar</NavLink>
+          <NavLink to="/NossasSolucoes" className="flex gap-1 text-green-400"><CornerUpLeft/>Voltar</NavLink>
         </div>
       </section>
     </>
