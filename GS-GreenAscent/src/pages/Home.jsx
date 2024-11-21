@@ -9,12 +9,12 @@ export default function Home() {
 
         <div className="grid row-span-2 w-full px-5 max-w-[960px]">
           <h1 className="text-green-400 text-4xl">Quem somos?</h1>
-          <p className="text-xl text-cinza text-justify">Somos um grupo apaixonado por tecnologia e inovacao, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odit libero consectetur deserunt, facere possimus cumque minima nulla quibusdam earum delectus blanditiis excepturi natus, molestiae sint! Similique veniam iure impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, distinctio consectetur saepe voluptate in, pariatur accusantium hic, mollitia repellendus nam fuga ipsum obcaecati aperiam quaerat. Quod neque excepturi facere voluptatibus!</p>
+          <p className="text-xl text-cinza text-justify">Somos a Green Ascent, um grupo de trabalho formado por estudantes universitários apaixonados por sustentabilidade e inovação. Nosso objetivo é criar soluções viáveis e conscientes para os desafios do setor energético, combinando aprendizado acadêmico com impacto ambiental positivo.</p>
         </div>
 
         <div className="grid row-span-2 w-full px-5 max-w-[960px]">
-          <h1 className="text-green-400 text-4xl">Nossa Solucao?</h1>
-          <p className="text-xl text-cinza text-justify">Somos um grupo apaixonado por tecnologia e inovacao, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odit libero consectetur deserunt, facere possimus cumque minima nulla quibusdam earum delectus blanditiis excepturi natus, molestiae sint! Similique veniam iure impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, distinctio consectetur saepe voluptate in, pariatur accusantium hic, mollitia repellendus nam fuga ipsum obcaecati aperiam quaerat. Quod neque excepturi facere voluptatibus!</p>
+          <h1 className="text-green-400 text-4xl">Nossas Soluções?</h1>
+          <p className="text-xl text-cinza text-justify">Eólica Sustentável: Planejamento eficiente para minimizar impactos em comunidades e ecossistemas.<br/>Solar Reciclável: Programas de reciclagem para reaproveitar materiais e reduzir resíduos.<br/>Hidro Equilibrada: Projetos de menor impacto ambiental com compensação justa para comunidades afetadas.<br/>Biomassa Limpa: Tecnologias avançadas para reduzir resíduos e poluição.<br/>Mar Preservado: Proteção de ecossistemas marinhos em projetos de energia offshore.</p>
         </div>
 
         <div className="grid row-span-2 w-full px-5 max-w-[960px]">
